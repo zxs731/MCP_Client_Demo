@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "mcp_server_txt2sql": {
+      "description": "这是一个SQL Expert",
+      "isActive": true,
+      "baseUrl": "http://localhost:8000/sse"
+    },
+    "mcp_music_player": {
+      "isActive": true,
+      "command": "python",
+      "args": [
+        "./mcp_server_onlinemusic_player.py"
+      ]
+    }
+  }
+}
